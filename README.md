@@ -19,13 +19,12 @@ Technologies Used
 - MATLAB 
 
 
-ModelTraining.mlx
+**ModelTraining.mlx**
 
 This script is used to prepare and label acceleration data for different activities (sitting, walking, running) and combine them into a single dataset for training a model.
 
 
-
-StepsCalculation_ActivityClassification.mlx
+**StepsCalculation_ActivityClassification.mlx**
 
 This is a MATLAB Live Script that compiles the workflows into a code. It shows how to process data acquired from a MATLAB Mobile session in order to make meaningful conclusions, and can be edited and executed in MATLAB or MATLAB Online. In order to run this Live Script, make sure ActivityLogsforTesting.mat, TrainedModel.mat and timeElapsed.m are in the same folder. 
 
@@ -36,8 +35,7 @@ Activity Classification:
 This script performs activity classification based on acceleration data, and classifies activities using a trained model. 
 
 
-
-ActivityLogsforTraining.mat & ActivityLogsforTesting.mat
+**ActivityLogsforTraining.mat & ActivityLogsforTesting.mat**
 
 This is a MATLAB data file containing a set of sensor data.
 Sensors Used
@@ -45,7 +43,7 @@ Sensors Used
 - GPS Position:Captures latitude and longitude in degrees.
 
 
-Methods of Collecting Data
+**Methods of Collecting Data**
 
 We collected data during various activities including walking, running, and rest to ensure the diversity of the fitness tracker.
 
@@ -58,18 +56,18 @@ Recording Data
 6. Data is automatically uploaded to MATLAB Drive.
 
 
-TrainedModel.mat
+**TrainedModel.mat**
 
 This is a MATLAB data file containing the model which was trained on the weighted KNN model using the classification learner. 
 This model helps in the classification of the data during the activity classification of the acquired sensor data of the activities.
 
 
-TimeElapsed.m
+**TimeElapsed.m**
 
 This is a helper MATLAB function used in the example model to transform an array containing the date and time of the data points collected to an array of the time elapsed since the acquisition was started.
 
 
-Result
+**Result**
 
 Sample Output & Graphical Representation of the Data
 
