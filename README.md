@@ -19,12 +19,12 @@ Technologies Used
 - MATLAB 
 
 
-**ModelTraining.mlx**
+<h2>ModelTraining.mlx</h2>
 
-This script is used to prepare and label acceleration data for different activities (sitting, walking, running) and combine them into a single dataset for training a model.
+This is a MATLAB Live Script that is used to prepare and label acceleration data for different activities (sitting, walking, running) and combine them into a single dataset for training a model.
 
 
-**StepsCalculation_ActivityClassification.mlx**
+<h2>StepsCalculation_ActivityClassification.mlx</h2>
 
 This is a MATLAB Live Script that compiles the workflows into a code. It shows how to process data acquired from a MATLAB Mobile session in order to make meaningful conclusions, and can be edited and executed in MATLAB or MATLAB Online. In order to run this Live Script, make sure ActivityLogsforTesting.mat, TrainedModel.mat and timeElapsed.m are in the same folder. 
 
@@ -35,7 +35,7 @@ Activity Classification:
 This script performs activity classification based on acceleration data, and classifies activities using a trained model. 
 
 
-**ActivityLogsforTraining.mat & ActivityLogsforTesting.mat**
+<h2>ActivityLogsforTraining.mat & ActivityLogsforTesting.mat</h2>
 
 This is a MATLAB data file containing a set of sensor data.
 Sensors Used
@@ -56,18 +56,18 @@ Recording Data
 6. Data is automatically uploaded to MATLAB Drive.
 
 
-**TrainedModel.mat**
+<h2>TrainedModel.mat</h2>
 
 This is a MATLAB data file containing the model which was trained on the weighted KNN model using the classification learner. 
 This model helps in the classification of the data during the activity classification of the acquired sensor data of the activities.
 
 
-**TimeElapsed.m**
+<h2>TimeElapsed.m</h2>
 
 This is a helper MATLAB function used in the example model to transform an array containing the date and time of the data points collected to an array of the time elapsed since the acquisition was started.
 
 
-**Result**
+<h2>Result</h2>
 
 Sample Output & Graphical Representation of the Data
 
